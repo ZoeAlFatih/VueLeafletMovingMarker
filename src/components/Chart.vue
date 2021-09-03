@@ -16,12 +16,12 @@ export default {
 <style>
 .__chartContainer {
   position: relative;
-  margin: 0px auto;
-  width: 1250px;
+  margin-top: -600px;
+  width: 600px;
   border-radius: 15px;
   height: 300px;
   overflow: hidden;
-  background: linear-gradient(78deg, #f1b5702d, #fa5151);
+  background: linear-gradient(78deg, #ffffff2d, #fa5151);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   z-index: 1;

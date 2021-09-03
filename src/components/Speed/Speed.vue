@@ -79,7 +79,7 @@ export default {
   display: flex;
   align-items: center;
   background-color: rgba(235, 16, 16, 0.123);
-  width: 1300px;
+  width: 600px;
   height: 300px;
   padding: 25px;
   overflow: hidden;
