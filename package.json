@@ -1,0 +1,33 @@
+{
+  "name": "gpsx",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.0",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "leaflet": "^1.7.1",
+    "vue": "^2.6.14",
+    "vue-speed-meter": "^1.1.2",
+    "vue2-leaflet": "^2.7.1",
+    "vue2-leaflet-moving-rotated-marker": "0.0.3",
+    "vuetrend": "^0.3.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^6.0.1",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
