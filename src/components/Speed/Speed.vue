@@ -33,7 +33,7 @@
 
 <script>
 import VueSpeedMeter from "vue-speed-meter";
-
+const speedR = [50,60,70,60,90,100,80,60,50,80,77,90]
 export default {
   components: {
     VueSpeedMeter,
@@ -55,14 +55,11 @@ export default {
       const speedArray = this;
       const arrData = [];
       const arr = this;
-      function randomSpeed(min, max) {
-        return Math.floor(Math.random() * (max - min + 5) + min);
-      }
+      const iterator = speedR.values();
       setInterval(() => {
-        speedCar.speed = randomSpeed(40, 60);
+        speedCar.speed = iterator.next().value;
         arrData.push(speedCar.speed);
         speedArray.arr = arrData;
-        console.log(JSON.stringify(speedArray.arr));
       }, 5000);
     },
   },
